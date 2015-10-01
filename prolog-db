@@ -1,0 +1,6 @@
+likes(george, kate).
+likes(george, susie).
+likes(george, wine).
+likes(susie, wine).
+likes(kate, gin).
+likes(kate, susie).
