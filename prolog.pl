@@ -1,5 +1,6 @@
 ?- consult('prolog-db').
- 
+
+
  
 ?- likes(george, susie).
 
@@ -8,10 +9,26 @@
 
     ?-trace(likes, -all).
 
+?- member(X, [a, b, c]).
+/**
+  * ?- assert(likes(david, sarah)).
+  */
+
+
+?- trace(member, +fail).
+
+?- trace(member, +all).
 
 
 
-?- assert(likes(david, sarah)).
+    
+?- member(c, [a, b, c]).
+
+
+
+
+
+?-member.
 
 
 
@@ -20,6 +37,9 @@
 
 
 
+
+
+solely
     told
     seen
     respective
