@@ -11,7 +11,8 @@
     (cond ((apply 'predicate-function (cons (nth columnsNumber (car lst)) match-string))
 	  t)
 	  (t nil)))
-  (rcursiveQuery
+  (rcursiveQuery db 3 (string "f") #'(lambda (a b)
+				       (
 
 (nth 2 contacts-db)
 
